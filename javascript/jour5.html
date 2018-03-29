@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jour5</title>
+        <style media="screen">
+            #tableau {
+                border: 1px solid grey;
+                margin: 1em 0.5em;;
+            }
+            td {
+                border: 1px solid grey;
+                padding: 1em;
+            }
+            thead, tfoot {
+                background-color: #ececec;
+            }
+            thead td, tfoot td {
+                border: 0;
+                padding: 0.5em 1em;
+            }
+            tbody input {
+                border: 0;
+                width: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Jour 5</h3>
+        <h1>Javascript</h1>
+        <h3>Le 29 mars 2018</h3>
+
+        <button id="btncol">col</button>
+        <button id="btnrow">row</button>
+
+        <table id="tableau">
+            <thead>
+                <tr>
+                    <td>1</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input class="x0 y0"
+                            onblur="calculerSomme('x0');">
+                        </input>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>0</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <script type="text/javascript" src="script5.js"></script>
+    </body>
+</html>
