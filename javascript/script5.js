@@ -7,6 +7,7 @@ let thead = tableau.querySelector('thead');
 let tbody = tableau.querySelector('tbody');
 let tfoot = tableau.querySelector('tfoot');
 
+
 // Bouton d'ajout de colonne
 document.getElementById('btncol').onclick = addcol;
 function addcol() {
