@@ -1,17 +1,3 @@
-getConnection()
-hashPassword()
-getSalt()
-exec
-query
-
-$co = getConnection();
-$co->exec('INSERT/UPDATE/DELETE');
-$co->query('SELECT')
-	=> fetch
-	=> fetchAll()
-	=> foreach
-
-$username dans un string => "$username";
 
 Petit exercice:
 1) Pour toutes les pages, récupérer le user s'il est connecté (var_dump);
@@ -23,4 +9,3 @@ BONUS : Gérer les droits
 
 
 
-email: julien.coppin@bstorm.be
