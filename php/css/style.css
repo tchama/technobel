@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+div#debug,
+button#dtoggle {
+    position: fixed;
+    bottom: 0;
+}
+div#debug {
+    min-height: 30px;
+    background-color: #d6c79e;
+    width: 100%;
+    padding: 1em;
+    border-top: 1px solid grey;
+    opacity: 0.85;
+    display: none;
+}
+button#dtoggle {
+    z-index: 10;
+    right: 2em;
+    bottom: 1em;
+}
+
+body {
+    padding: 0; margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    position: relative;
+}
+.clearfix {
+    clear: both;
+}
+
+div#header,
+div#footer {
+    background-color: #ececec;
+}
+div#header {
+    border-bottom: 1px solid #d2d2d2;
+    min-height: 150px;
+}
+div#header h1 {
+    text-transform: uppercase;
+}
+div#header div#mainnav ul {
+    padding-left: 0;
+    margin-top: 3em;
+}
+div#header div#mainnav ul li {
+    display: inline;
+    padding: 1em;
+}
+div#header div#mainnav ul li:not(.user) {
+    background-color: white;
+}
+div#header div#mainnav ul li.user {
+    float: right;
+}
+div#header div#mainnav ul li a {
+    text-transform: uppercase;
+}
+
+div#content {
+}
+div#content aside {
+    float: left;
+    width: 25%;
+    margin-right: 3em;
+}
+div#content aside ul {
+    padding-left: 0;
+    margin: 0;
+}
+div#content aside ul li {
+    list-style-type: none;
+    background-color: #f3f3f3;
+    border-bottom: 1px dotted #b7b7b7;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+}
+div#content section {
+    float: left;
+    width: 69%;
+    text-align: justify;
+}
+
+form.login, form.register {
+    /* margin: 2em 5em; */
+}
+
+form.sign {
+    border: 1px solid #d2d2d2;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 500px;
+    background-color: #ececec;
+    margin-bottom: 1em;
+}
+form.sign fieldset {
+    border: 0px solid white;
+    margin-bottom: 0.5em;
+}
+form.sign fieldset input {
+    float: right;
+    width: 65%;
+    padding: 0.3em;
+}
+form.sign .error,
+form.sign .success {
+    padding: 0.5em;
+}
+form.sign .error {
+    color: red;
+}
+form.sign .success {
+    color: green;
+}
+
+div#footer {
+    border-top: 1px solid #d2d2d2;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+div.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    box-sizing: border-box;
+    padding: 4em;
+    box-shadow: 0px 0px 14px -6px black;
+    width: 960px;
+}
+div#header .container {
+    padding-bottom: 1em;
+}
+div#content .container {
+    min-height: 100%;
+}
+div#footer .container {
+    padding: 1em 4em;
+}
+
+#users table {
+    border: 1px solid #d2d2d2;
+    width: 100%;
+}
+#users table td {
+    padding: 0.5em;
+}
+table.altern thead tr {
+    background-color: #ececec;
+    font-weight: bold;
+}
+table.altern tbody tr.odd {
+    background-color: white;
+}
+table.altern tbody tr.even {
+    background-color: #ececec;
+}
