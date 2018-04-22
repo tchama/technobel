@@ -2,8 +2,11 @@
         <div id="header">
             <div class="container">
 
-                <h1>Tchama users</h1>
-                <h3>Slogan du site</h3>
+                <img src="img/tchama.png" alt="Tchama" class="logosite">
+                <div class="accueil">
+                    <h1>Tchama users</h1>
+                    <h3>Slogan du site</h3>
+                </div>
 
                 <div id="mainnav" class="nav">
                     <ul>
