@@ -2,6 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Document</title>
+        <title>Tchama users</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
