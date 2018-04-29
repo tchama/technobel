@@ -64,7 +64,7 @@ include('sidebar.php');
 <section id="register">
     <form class="register sign" action="" method="post" name="register">
         <h3>S'enregistrer</h3>
-        <?php displayFormMessage($codeRetour) ?>
+	<?php if (!empty($codeRetour)) { displayFormMessage($codeRetour); } ?>
 
         <fieldset>
             <label for="firstname">Prénom</label>

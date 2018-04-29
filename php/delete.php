@@ -37,7 +37,7 @@ include('sidebar.php');
     <form class="sign" action="" method="post">
         <fieldset>
             <h3>Suppression définitive du compte</h3>
-            <?php displayFormMessage($codeRetour) ?>
+            <?php if(!empty($codeRetour)) { displayFormMessage($codeRetour); } ?>
 
             <p>
                 Êtes-vous sûr de bien vouloir supprimer votre compte ?

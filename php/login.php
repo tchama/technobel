@@ -55,7 +55,7 @@ include('sidebar.php');
 <section id="login">
     <form class="login sign" action="" method="post">
         <h3>Se connecter</h3>
-        <?php displayFormMessage($codeRetour) ?>
+	<?php if (!empty($codeRetour)) { displayFormMessage($codeRetour); } ?>
 
         <fieldset>
             <label for="username">Nom d'utilisateur</label>

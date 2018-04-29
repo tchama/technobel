@@ -5,7 +5,7 @@
  *  chaque input va pouvoir afficher la valeur récupérée
  */
 
-function displayValue($name, $session)
+function displayValue($name, $session = NULL)
 {
     if (isset($_POST[$name])) {
         echo "value=\"" . $_POST[$name] . "\"";

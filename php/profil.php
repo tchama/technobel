@@ -92,7 +92,7 @@ include('sidebar.php');
 
     <form class="profil sign" action="" method="post">
         <h3>Modifier mon profil</h3>
-        <?php displayFormMessage($codeRetour) ?>
+	<?php if (!empty($codeRetour)) { displayFormMessage($codeRetour); } ?>
 
         <fieldset>
             <label for="id">#</label>
